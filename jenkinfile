@@ -55,7 +55,7 @@ pipeline {
 
                 withMaven(maven : 'apache-maven-3.6.3') {
 
-                    bat 'mvn redeploy'
+                    bat 'mvn tomcat:redeploy'
 
     }
 
